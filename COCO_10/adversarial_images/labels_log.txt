@@ -1,0 +1,40 @@
+Image ID: 143671
+Original Label: a carrot
+Adversarial Label: a carrot
+------------------------------------------------
+Image ID: 423739
+Original Label: a bench
+Adversarial Label: a person
+------------------------------------------------
+Image ID: 529661
+Original Label: a dining table
+Adversarial Label: a laptop
+------------------------------------------------
+Image ID: 573225
+Original Label: a fire hydrant
+Adversarial Label: a fire hydrant
+------------------------------------------------
+Image ID: 496097
+Original Label: a dining table
+Adversarial Label: a sink
+------------------------------------------------
+Image ID: 572448
+Original Label: a orange
+Adversarial Label: a apple
+------------------------------------------------
+Image ID: 86803
+Original Label: a tennis racket
+Adversarial Label: a tennis racket
+------------------------------------------------
+Image ID: 352476
+Original Label: a bus
+Adversarial Label: a bus
+------------------------------------------------
+Image ID: 147591
+Original Label: a banana
+Adversarial Label: a banana
+------------------------------------------------
+Image ID: 432334
+Original Label: a surfboard
+Adversarial Label: a surfboard
+------------------------------------------------
