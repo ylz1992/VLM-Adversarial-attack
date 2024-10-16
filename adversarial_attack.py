@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import argparse
 import numpy as np
 
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 def load_clip_model():
@@ -102,10 +103,25 @@ def log_labels(image_id, original_label, adversarial_label, output_dir):
         f.write(f"Original Label: {original_label}\n")
         f.write(f"Adversarial Label: {adversarial_label}\n")
         f.write("------------------------------------------------\n")
+
+def generate_pie_chart(success_count, fail_count, output_dir):
+    labels = 'Success', 'Failure'
+    sizes = [success_count, fail_count]
+    colors = ['lightgreen', 'lightcoral']
+    explode = (0.1, 0)  # explode the 1st slice (Success)
+
+    plt.figure(figsize=(6, 6))
+    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', shadow=True, startangle=140)
+    plt.title('Attack Success vs Failure')
+    plt.savefig(os.path.join(output_dir, 'attack_pie_chart.png'))
+    plt.close()
     
 
 def generate_adversarial_images(coco_data, model, processor, coco_image_path, epsilon, output_dir):
     os.makedirs(output_dir, exist_ok=True)
+    success_count=0
+    fail_count=0
+    result_data={"images":[]}
 
     for image_info in coco_data['images']:
         image_path = os.path.join(coco_image_path, image_info['file_name'])
@@ -141,11 +157,28 @@ def generate_adversarial_images(coco_data, model, processor, coco_image_path, ep
         adversarial_label_idx = adversarial_logits.argmax().item()
         adversarial_label = labels[adversarial_label_idx]
 
+        if original_label != adversarial_label:
+            success_count +=1
+        else:
+            fail_count+=1
+        
+        result_data["images"].append({
+            "id": image_id,
+            "file_name": image_info['file_name'],
+            "original_label": original_label,
+            "adversarial_label":adversarial_label
+        })
+
         log_labels(image_id, original_label, adversarial_label, output_dir)
 
         display_and_save_images(image, perturbed_image, image_id, output_dir)
         # Plot and save the histogram of weights
         plot_histogram(labels, original_weights, adversarial_weights, image_id, output_dir)
+    
+    generate_pie_chart(success_count, fail_count,output_dir)
+    
+    with open(os.path.join(output_dir,"adversarial_result.json"),'w') as f:
+        json.dump(result_data,f,indent=4)
 
 
 def main():
