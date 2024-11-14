@@ -1,0 +1,612 @@
+[
+    {
+        "filename": "adversarial_image_377944.png",
+        "detections": [
+            {
+                "label": "person",
+                "score": 0.86,
+                "box": {
+                    "xmin": 0.11,
+                    "ymin": 0.16,
+                    "xmax": 109.59,
+                    "ymax": 223.29
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.61,
+                "box": {
+                    "xmin": 111.27,
+                    "ymin": -0.11,
+                    "xmax": 223.83,
+                    "ymax": 223.89
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_461567.png",
+        "detections": [
+            {
+                "label": "person",
+                "score": 0.87,
+                "box": {
+                    "xmin": 149.86,
+                    "ymin": 36.09,
+                    "xmax": 215.36,
+                    "ymax": 88.39
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.77,
+                "box": {
+                    "xmin": 81.55,
+                    "ymin": 64.13,
+                    "xmax": 140.83,
+                    "ymax": 151.74
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.75,
+                "box": {
+                    "xmin": 130.05,
+                    "ymin": 75.02,
+                    "xmax": 223.9,
+                    "ymax": 179.78
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.74,
+                "box": {
+                    "xmin": 82.44,
+                    "ymin": 41.74,
+                    "xmax": 107.55,
+                    "ymax": 84.79
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.69,
+                "box": {
+                    "xmin": 0.23,
+                    "ymin": 50.58,
+                    "xmax": 62.96,
+                    "ymax": 192.09
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.66,
+                "box": {
+                    "xmin": 118.64,
+                    "ymin": 40.69,
+                    "xmax": 155.29,
+                    "ymax": 97.23
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.64,
+                "box": {
+                    "xmin": 50.95,
+                    "ymin": 50.68,
+                    "xmax": 96.57,
+                    "ymax": 158.18
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.42,
+                "box": {
+                    "xmin": 0.34,
+                    "ymin": 50.59,
+                    "xmax": 62.39,
+                    "ymax": 139.08
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.41,
+                "box": {
+                    "xmin": 130.04,
+                    "ymin": 75.23,
+                    "xmax": 223.87,
+                    "ymax": 223.63
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.4,
+                "box": {
+                    "xmin": 0.19,
+                    "ymin": 50.44,
+                    "xmax": 63.54,
+                    "ymax": 223.86
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.37,
+                "box": {
+                    "xmin": 54.59,
+                    "ymin": 50.72,
+                    "xmax": 93.2,
+                    "ymax": 128.46
+                }
+            },
+            {
+                "label": "tvmonitor",
+                "score": 0.36,
+                "box": {
+                    "xmin": 56.59,
+                    "ymin": 0.04,
+                    "xmax": 79.95,
+                    "ymax": 27.48
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.32,
+                "box": {
+                    "xmin": 118.96,
+                    "ymin": 40.8,
+                    "xmax": 142.22,
+                    "ymax": 83.73
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_160009.png",
+        "detections": [
+            {
+                "label": "person",
+                "score": 0.61,
+                "box": {
+                    "xmin": 80.45,
+                    "ymin": 130.3,
+                    "xmax": 101.34,
+                    "ymax": 166.4
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.57,
+                "box": {
+                    "xmin": 27.11,
+                    "ymin": 121.95,
+                    "xmax": 52.74,
+                    "ymax": 172.46
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.5,
+                "box": {
+                    "xmin": 97.78,
+                    "ymin": 132.16,
+                    "xmax": 118.89,
+                    "ymax": 199.98
+                }
+            },
+            {
+                "label": "car",
+                "score": 0.47,
+                "box": {
+                    "xmin": 166.63,
+                    "ymin": 149.11,
+                    "xmax": 224.01,
+                    "ymax": 201.43
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.47,
+                "box": {
+                    "xmin": 79.63,
+                    "ymin": 130.3,
+                    "xmax": 101.52,
+                    "ymax": 199.43
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.43,
+                "box": {
+                    "xmin": 118.49,
+                    "ymin": 128.94,
+                    "xmax": 140.82,
+                    "ymax": 186.26
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.42,
+                "box": {
+                    "xmin": 55.82,
+                    "ymin": 136.7,
+                    "xmax": 79.69,
+                    "ymax": 166.55
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.4,
+                "box": {
+                    "xmin": 51.6,
+                    "ymin": 136.64,
+                    "xmax": 80.04,
+                    "ymax": 201.29
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.37,
+                "box": {
+                    "xmin": 99.0,
+                    "ymin": 132.22,
+                    "xmax": 118.38,
+                    "ymax": 164.91
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.36,
+                "box": {
+                    "xmin": 117.56,
+                    "ymin": 128.78,
+                    "xmax": 141.62,
+                    "ymax": 199.78
+                }
+            },
+            {
+                "label": "car",
+                "score": 0.34,
+                "box": {
+                    "xmin": 165.99,
+                    "ymin": 148.54,
+                    "xmax": 223.96,
+                    "ymax": 221.2
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.33,
+                "box": {
+                    "xmin": 141.59,
+                    "ymin": 141.24,
+                    "xmax": 161.68,
+                    "ymax": 195.01
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.32,
+                "box": {
+                    "xmin": 27.31,
+                    "ymin": 122.04,
+                    "xmax": 52.58,
+                    "ymax": 150.86
+                }
+            },
+            {
+                "label": "handbag",
+                "score": 0.31,
+                "box": {
+                    "xmin": 91.28,
+                    "ymin": 165.44,
+                    "xmax": 106.29,
+                    "ymax": 183.43
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.3,
+                "box": {
+                    "xmin": 139.32,
+                    "ymin": 122.29,
+                    "xmax": 166.23,
+                    "ymax": 194.88
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_319163.png",
+        "detections": [
+            {
+                "label": "dog",
+                "score": 0.57,
+                "box": {
+                    "xmin": 106.56,
+                    "ymin": 53.4,
+                    "xmax": 198.91,
+                    "ymax": 224.01
+                }
+            },
+            {
+                "label": "cup",
+                "score": 0.42,
+                "box": {
+                    "xmin": 30.1,
+                    "ymin": 187.53,
+                    "xmax": 46.57,
+                    "ymax": 222.62
+                }
+            },
+            {
+                "label": "dog",
+                "score": 0.42,
+                "box": {
+                    "xmin": 0.26,
+                    "ymin": 91.08,
+                    "xmax": 88.36,
+                    "ymax": 223.17
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.34,
+                "box": {
+                    "xmin": 0.56,
+                    "ymin": 90.88,
+                    "xmax": 112.65,
+                    "ymax": 223.54
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_264514.png",
+        "detections": [
+            {
+                "label": "dog",
+                "score": 0.85,
+                "box": {
+                    "xmin": 47.42,
+                    "ymin": 0.51,
+                    "xmax": 199.11,
+                    "ymax": 94.78
+                }
+            },
+            {
+                "label": "bowl",
+                "score": 0.59,
+                "box": {
+                    "xmin": -0.03,
+                    "ymin": 30.63,
+                    "xmax": 51.94,
+                    "ymax": 63.93
+                }
+            },
+            {
+                "label": "spoon",
+                "score": 0.38,
+                "box": {
+                    "xmin": 12.7,
+                    "ymin": 30.03,
+                    "xmax": 28.18,
+                    "ymax": 45.74
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_539307.png",
+        "detections": [
+            {
+                "label": "person",
+                "score": 0.53,
+                "box": {
+                    "xmin": -0.0,
+                    "ymin": 0.02,
+                    "xmax": 107.75,
+                    "ymax": 224.02
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.43,
+                "box": {
+                    "xmin": -0.0,
+                    "ymin": -0.03,
+                    "xmax": 147.07,
+                    "ymax": 223.97
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.37,
+                "box": {
+                    "xmin": 0.01,
+                    "ymin": -0.02,
+                    "xmax": 224.01,
+                    "ymax": 223.98
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.33,
+                "box": {
+                    "xmin": 89.61,
+                    "ymin": 101.14,
+                    "xmax": 140.65,
+                    "ymax": 213.29
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_335581.png",
+        "detections": [
+            {
+                "label": "traffic light",
+                "score": 0.5,
+                "box": {
+                    "xmin": 50.7,
+                    "ymin": 0.1,
+                    "xmax": 81.95,
+                    "ymax": 75.53
+                }
+            },
+            {
+                "label": "refrigerator",
+                "score": 0.42,
+                "box": {
+                    "xmin": -0.06,
+                    "ymin": -0.08,
+                    "xmax": 223.94,
+                    "ymax": 223.92
+                }
+            },
+            {
+                "label": "refrigerator",
+                "score": 0.34,
+                "box": {
+                    "xmin": 97.72,
+                    "ymin": -0.14,
+                    "xmax": 224.15,
+                    "ymax": 223.86
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_525823.png",
+        "detections": [
+            {
+                "label": "person",
+                "score": 0.77,
+                "box": {
+                    "xmin": 44.68,
+                    "ymin": -0.01,
+                    "xmax": 172.78,
+                    "ymax": 223.99
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.53,
+                "box": {
+                    "xmin": -0.05,
+                    "ymin": -0.1,
+                    "xmax": 83.95,
+                    "ymax": 223.9
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.53,
+                "box": {
+                    "xmin": 129.77,
+                    "ymin": 0.01,
+                    "xmax": 223.91,
+                    "ymax": 224.0
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_388399.png",
+        "detections": [
+            {
+                "label": "cat",
+                "score": 0.94,
+                "box": {
+                    "xmin": -0.09,
+                    "ymin": 7.91,
+                    "xmax": 209.83,
+                    "ymax": 207.56
+                }
+            },
+            {
+                "label": "bed",
+                "score": 0.44,
+                "box": {
+                    "xmin": -0.05,
+                    "ymin": -0.5,
+                    "xmax": 223.95,
+                    "ymax": 223.49
+                }
+            },
+            {
+                "label": "sofa",
+                "score": 0.41,
+                "box": {
+                    "xmin": -0.05,
+                    "ymin": -0.5,
+                    "xmax": 223.95,
+                    "ymax": 223.49
+                }
+            }
+        ]
+    },
+    {
+        "filename": "adversarial_image_345225.png",
+        "detections": [
+            {
+                "label": "person",
+                "score": 0.68,
+                "box": {
+                    "xmin": -0.0,
+                    "ymin": -0.06,
+                    "xmax": 89.55,
+                    "ymax": 223.94
+                }
+            },
+            {
+                "label": "banana",
+                "score": 0.43,
+                "box": {
+                    "xmin": 150.76,
+                    "ymin": 76.56,
+                    "xmax": 187.05,
+                    "ymax": 92.1
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.38,
+                "box": {
+                    "xmin": 0.04,
+                    "ymin": -0.15,
+                    "xmax": 224.04,
+                    "ymax": 223.85
+                }
+            },
+            {
+                "label": "person",
+                "score": 0.34,
+                "box": {
+                    "xmin": -0.0,
+                    "ymin": 0.12,
+                    "xmax": 88.75,
+                    "ymax": 123.5
+                }
+            },
+            {
+                "label": "pottedplant",
+                "score": 0.32,
+                "box": {
+                    "xmin": 82.65,
+                    "ymin": 0.07,
+                    "xmax": 153.38,
+                    "ymax": 86.71
+                }
+            },
+            {
+                "label": "banana",
+                "score": 0.31,
+                "box": {
+                    "xmin": 149.53,
+                    "ymin": 76.72,
+                    "xmax": 188.7,
+                    "ymax": 102.17
+                }
+            }
+        ]
+    }
+]
